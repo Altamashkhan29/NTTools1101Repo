@@ -1,9 +1,12 @@
 package com.nt.main;
 
+import com.nt.service.Arthmetic;
+
 public class ApplicationRun {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Arthmetic ar=new Arthmetic();
+		System.out.println("sum is::"+ar.sum(10, 20));
 
 	}
 
